@@ -28,6 +28,11 @@
     height: 50px;
     z-index: 50;
     overflow-x: scroll;
+    scrollbar-width: none; /* Firefox에서 스크롤바 숨기기 */
+}
+
+.recommand_menu_list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari에서 스크롤바 숨기기 */
 }
 
 /* 각 카테고리 */
